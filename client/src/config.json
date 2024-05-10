@@ -1,0 +1,6 @@
+{
+    "local": "ru",
+    "theme": "DARK",
+    "endpoint": "http://localhost:4000/",
+    "repeatTransactions": true
+}

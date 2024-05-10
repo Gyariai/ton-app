@@ -1,0 +1,39 @@
+.ton-connect {
+    width: fit-content;
+}
+
+.loader-spin {
+    width: 48px;
+    height: 48px;
+    border: 5px solid black;
+    border-bottom-color: transparent;
+    border-radius: 50%;
+    display: inline-block;
+    box-sizing: border-box;
+    animation: rotation 1s linear infinite;
+    }
+
+    @keyframes rotation {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+} 
+
+  .Vue-Toastification__close-button {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 24px;
+    background: transparent;
+    outline: none;
+    border: none;
+    padding: 0 0 0 10px;
+    cursor: pointer;
+    transition: .3s ease;
+    align-items: center;
+    color: #fff;
+    opacity: .3;
+    transition: visibility 0s,opacity .2s linear;
+}

@@ -1,0 +1,63 @@
+﻿<!DOCTYPE html>
+<html lang="en" class="dark">
+  <head>
+    <meta charset="UTF-8">
+    <link rel="icon" href="/favicon.ico">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+    <title>TON</title>
+    <meta name="title" content="Luminex BRC-20">
+    <meta name="description" content="Mint BRC-20 Tokens!">
+  
+    <meta http-equiv="cache-control" content="no-cache, no-store, must-revalidate">
+    <meta http-equiv="pragma" content="no-cache">
+    <meta http-equiv="expires" content="0">
+  </head>
+  
+  <body>
+
+    <div data-id="conteiner_connect" style="display: none">
+      <div>
+          <span>User-friendly address: <span data-id="ton-address-userfrendly"></span></span>
+          <span>Raw address: <span data-id="ton-address"></span></span>
+      </div>
+
+      <br>
+
+      <button data-id="ton-transaction" >
+        
+        <!-- Спинер -->
+        <div class="loader-spin" data-id="spinner"  style="display: none"></div> 
+        
+        Transaction 
+      </button>
+
+      <button data-id="ton-transaction" >
+        <!-- Спинер -->
+        <div class="loader-spin" data-id="spinner"  style="display: none"></div>
+
+        <!-- текст который изм при транзакции -->
+        <div data-id="spinner-text">mint</div>
+      </button>
+
+      <!-- кнопка дискнекта -->
+      <button data-id="ton-disconnect">Disconect</button>
+    </div>
+
+    <div data-id="conteiner_connected"  style="display: none">
+
+      <!-- кнопка открытия окна -->
+      <button data-id="ton-open">Open modal</button>
+    </div>
+
+
+    <br>
+    <br>
+
+    <!-- кнопка по умолчанию из библиотеки конекта и дисконекта -->
+    <div id="ton-connect-button" class="ton-connect"></div>
+
+    
+    <div id="app"></div>
+  </body>
+</html>
